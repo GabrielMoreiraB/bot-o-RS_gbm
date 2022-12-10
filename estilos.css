@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body{
+    background-color: #7896b9;
+    font-family: 'Open Sans', 'icones', sans-serif;
+    color: #ffffff;
+}
+
+ul{
+    position: relative;
+    display: flex;
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+ul li a .fa-brands{
+    font-size: 6em;
+    color: #222;
+}
+
+ul li::before{
+    
+}
