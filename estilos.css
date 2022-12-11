@@ -1,9 +1,22 @@
 
 body{
-    background-color: #7896b9;
+    background-image: linear-gradient(#696f91, #303341);
     font-family: 'Open Sans', 'icones', sans-serif;
-    color: #ffffff;
-    
+    color: #ffffff;   
+}
+
+.conteudo__social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulo__principal{
+    font-weight: 700;
+    font-size: 3em;
+    margin-bottom: 48px;
 }
 
 
@@ -45,21 +58,21 @@ ul li:nth-child(1)::before{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     border-bottom: 4px solid #dc2743;
-    transition: 1s;
+    transition: .7s;
 }
 
 ul li:nth-child(2)::before{
     content: "\f232";
     color: #25d366;
     border-bottom:  4px solid #25d366;
-    transition: 1s;
+    transition: .7s;
 }
 
 ul li:nth-child(3)::before{
     content: "\f099";
     color: #1da1f2;
     border-bottom:  4px solid #1da1f2;
-    transition: 1s;
+    transition: .7s;
 }
 
 ul li:hover::before{
