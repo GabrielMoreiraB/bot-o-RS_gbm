@@ -16,7 +16,9 @@ body{
 .titulo__principal{
     font-weight: 700;
     font-size: 3em;
-    margin-bottom: 48px;
+     
+    margin: 0 auto 48px auto;
+
 }
 
 
